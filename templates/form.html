@@ -103,7 +103,7 @@
 <div class="container">
     <p>Welcome to our Named Entity Recognition application. Enter your text below to identify entities within the text.</p>
     <form action="{{ url_for('ner') }}" method="post">
-        <label for="input_text">Text</label>
+        <label for="input_text" style="color: black;">Text</label>
         <textarea name="text" id="input_text" placeholder="Enter your Text..."></textarea>
         <button type="submit">Submit</button>
     </form>
